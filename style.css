@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+.topbar ul {
+    list-style-type: none;
+    float: right;
+    margin: 5px;
+}
+
+.topbar ul li {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+}
+
+.topbar ul li a {
+    color: #5d5d5d;
+}
+
+.topbar ul li a.btn-sin {
+    background: blue;
+    padding: 8px 12px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.topbar:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.search-area {
+    text-align: center;
+    padding-top: 110px;
+
+}
+
+.logo-search {
+    max-width: 60%;
+    background: url(googlelogo_color.png) no-repeat center top;
+    margin: 90px auto;
+}
+
+.search-bar input[type=text] {
+    padding: 10px 20px;
+    width: 65%;
+    height: 4vh;
+    margin: 5px;
+    border-radius: 1px;
+    border-radius: 30px;
+    border: 1px solid #f2f2f2;
+    margin-bottom: 30px;
+    background: url(search-icon.png) no-repeat right;
+    background-size: 30px 30px;
+    box-shadow: 0px 2px 1px 1px #d5d5d5;
+
+}
+
+.search-area button {
+    text-align: center;
+    padding: 10px 16px;
+    margin: 15px;
+    font-weight: bold;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 2px;
+    color: #757575;
+}
+
+.search-area button:hover {
+    color: #000;
+    border: 1px solid #c6c6c6;
+
+}
+
+.search-area p {
+    display: block;
+    text-align: center;
+    padding top: 20px;
+    padding-left: 50px;
+    margin: 25px;
+}
+
+.search-area ul {
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.search-area ul li {
+    display: inline;
+    margin: 10px;
+}
+
+#footer .country {
+    background: #f7f7f7;
+    padding: 12px 18px;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.country a {
+    color: #333;
+}
+
+.bottom-nav {
+    background: #f7f7f7;
+}
+
+.bottom-nav ul {
+    list-style-type: none;
+}
+
+.bottom-nav ul li {
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+.bottom-nav .left {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.bottom-nav .right {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.bottom-nav:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#footer a {
+    font-size: 14px;
+    color: #757575;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+#footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
